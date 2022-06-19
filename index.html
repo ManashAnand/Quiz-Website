@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <div id="mainContainer">
+        <div id="container">
+            <div id="QuestionContainer">
+            <h2>Q1. What is the name of Creator of this website ?</h2>
+            </div>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answer" >
+                    <label for="ans1" id="option1">answer1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans2" id="option2">answer2</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans3" id="option3">answer3</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans4" id="option4">answer4</label>
+                </li>
+            </ul>
+            
+            <div id="SubmitContainer">
+           <div id="btn">Submit</div> 
+                </div>
+                
+             <div id="showScore" class="scoreArea">
+                <h2 id="score">You Scored <span>0</span>/4  ✌️  </h2>
+                <div id="playAgain">Play Again</div>
+            </div>
+         
+        </div>
+    </div>
+
+    <script src="question.js"></script>
+   
+</body>
+</html>
